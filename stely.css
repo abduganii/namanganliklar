@@ -1,0 +1,358 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.contianer{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: "Ribik" , sans-serif;
+}
+.h1-header{
+    
+    font-weight: bold;
+font-size: 28px;
+
+box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+border-radius: 5px;
+color: #295091;
+background-color: white;
+padding: 3px 8px;
+margin-right: 17px;
+}
+header{
+    background-color: #F6F6F9;
+    margin: 0 auto;
+}
+.header-top{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.valuta{
+    font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+margin-right: 4px;
+color: #285193;
+}
+.p-header{
+    font-size: 16px;
+line-height: 19px;
+color: rgb(128, 128, 128, .9);
+margin-right: 20px;
+
+}
+.headerlift{
+    display: flex;
+    align-items: center;
+}
+.nav-img{
+    max-width: 1200px;
+}
+.p-3:nth-child(2){
+    font-weight: 500;
+}
+.img{
+    
+    padding: 11px 11px 11px 11px ;
+    background-color:white;
+border-radius: 5px;
+margin-right: 21px;
+}
+.headerright-p{
+    display: flex;
+    font-weight: 500;
+font-size: 16px;
+
+background-color: white;
+color: #535353;
+align-items: center;
+
+padding: 11px 8px 8px 11px;
+border-radius: 5px;
+margin-right: 23px;
+}
+.headerright-p::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius:50px;
+    background-image:url(./img/cif_ru.png) ;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    background-size: 20px 20px;
+}
+.headerright{
+    display: flex;
+}
+.headerright-a{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+border-radius: 5px;
+color: #FFFFFF;
+text-decoration: none;
+padding: 10.5px 12px 10.5px 10.5px;
+}
+.headerright-a::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image:url(./img/Vector.png);
+    background-size:contain;
+    border-radius:50px; 
+    margin-right: 7.3px;
+  
+}
+nav{
+    margin-bottom: 18px;
+}
+.nav-ul{
+    list-style: none;
+    background-color:white;
+    display: flex;
+    padding: 22px 25px;
+    justify-content: space-between;
+  
+box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+border-radius: 5px;
+}
+
+.nav-a{
+    text-decoration: none;
+    font-weight: 500;
+font-size: 19px;
+line-height: 23px;
+color: #515151;
+
+
+}
+.mainlift-h1{
+    font-weight: bold;
+font-size: 24px;
+color: #000000;
+
+}
+.maintop-p{
+    font-size: 14px;
+line-height: 17px;
+color: #7688A4;
+display: flex;
+align-items: center;
+margin-top: 13px;
+margin-bottom: 16px;
+}
+.maintop-p::before{
+    content: "";
+    width: 14px;
+    height: 16px;
+    display: inline-block;
+    background-image:url(./img/Vector\ \(1\).png);
+    margin-right:4px;
+}
+.maintop-p2{
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+width: 794px;
+margin-bottom: 20px;
+}
+.p-3{
+font-weight: bold;
+
+}
+.p-3{
+margin-top: 17px;
+}
+.maintopa-2{
+    text-decoration: none;
+}
+.maintopa-2 span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.mainright-h3{
+    font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+
+margin-bottom: 6px;
+}
+.mainright-p{
+    font-size: 17px;
+line-height: 20px;
+width: 347px;
+color: #202020;
+}
+.hr-2{
+    width: 346px;
+    height: 4px;
+    background-color: #E4E4E4;
+    border:none ;
+    margin-bottom: 18px;
+}
+.main-right1{
+    padding: 18px 20px;
+background: #F6F6F9;
+border-radius: 5px;
+margin-bottom: 20px;
+
+}
+.main-top{
+    display: flex;
+    justify-content: space-between;
+}
+.mainright-p2{
+    font-size: 14px;
+line-height: 17px;
+
+color: #7688A4;
+
+margin-top: 11px;
+margin-bottom: 14px;
+}
+.hr1{
+    background: #EBEBEB;
+width: 794px;
+height: 2px;
+border: none;
+margin-top: 20px;
+margin-bottom: 16px
+}
+.bottom2-h2{
+    font-weight:bold;
+font-size: 17px;
+line-height: 20px;
+width: 380px;
+margin: 11px 0;
+}
+.bottom2-p{
+    font-size: 14px;
+line-height: 17px;
+
+color: #6B6D97;
+}
+.mainbottom2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 34px;
+}
+.footer-h2{
+    font-weight: bold;
+    display: inline-block;
+font-size: 16px;
+
+background-color: #133C82;
+border-radius: 5px;
+
+padding: 11px 12px 6px 9px;
+}
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color:#295093; 
+    
+}
+.footer-h2{
+    font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+
+background: #133C82;
+border-radius: 5px;
+padding: 11px 12px 6px 9px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.topright{
+    display: flex;
+}
+.footer-p{
+    font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFFFFF;
+}
+.footer-a{
+    font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+ background-color: white;
+color: #295093;
+text-decoration: none;
+display: flex;
+align-items: center;
+margin-left: 17px;
+padding: 10px 11px 9px 9px;
+ border-radius: 5px;
+}
+.footer-a::before{
+    content: "";
+    width: 19.3px;
+    height: 19.3px;
+    display: inline-block;
+    background-image:url(./img/cib_telegram.png) ;
+    margin-right: 4px;
+   border-radius:50px
+}
+.footer-hr{
+    background: #133C82;
+    height: 3px;
+    border: none;
+    margin-bottom: 12px;
+}
+.footer-p1{
+    font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+width: 365px;
+color: #FFFFFF;
+}
+.footer-span{
+    display: block;
+    margin-bottom: 10px;
+}
+.footer-ul{
+    font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFFFFF;
+list-style: none;
+margin-bottom: 10px;
+}
+.footer-bottom{
+    display: flex;
+   justify-content: space-between;
+}
+.footer-ul1{
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+margin-bottom: 10px;
+color: #FFFFFF;
+list-style: none;
+}
+
+    
+.footerdiv{
+    margin-right: 238px;
+    
+}
